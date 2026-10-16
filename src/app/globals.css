@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ink font-sans text-slate-100 antialiased;
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
+}
+
+::selection {
+  background: rgba(255, 61, 154, 0.35);
+}
+
+@layer utilities {
+  .text-sunset {
+    background-image: linear-gradient(90deg, #ff3d9a 0%, #a855f7 55%, #2dd4ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Synthwave perspective floor — pure CSS, no images */
+  .hero-grid-floor {
+    background-image:
+      linear-gradient(rgba(168, 85, 247, 0.22) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(168, 85, 247, 0.22) 1px, transparent 1px);
+    background-size: 48px 48px;
+    transform: perspective(520px) rotateX(62deg) scale(1.6);
+    transform-origin: top center;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), transparent 85%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), transparent 85%);
+  }
+
+  .hero-sun {
+    background: linear-gradient(180deg, #ffb454 0%, #ff3d9a 48%, #a855f7 100%);
+    filter: blur(64px);
+  }
+
+  .card {
+    @apply rounded-2xl border border-line bg-surface;
+  }
+
+  .card-hover {
+    @apply transition duration-200 hover:-translate-y-0.5 hover:border-neon-purple/50 hover:shadow-glow-cyan;
+  }
+
+  .prose-gta p {
+    @apply mb-4 leading-relaxed text-mist;
+  }
+
+  .prose-gta h2 {
+    @apply mt-10 mb-4 text-2xl font-bold tracking-tight text-white;
+  }
+
+  .prose-gta h3 {
+    @apply mt-6 mb-2 text-lg font-semibold text-white;
+  }
+
+  .prose-gta ul {
+    @apply mb-4 list-disc space-y-2 pl-6 text-mist;
+  }
+
+  .prose-gta a {
+    @apply text-neon-cyan underline decoration-neon-cyan/40 underline-offset-4 hover:decoration-neon-cyan;
+  }
+}
