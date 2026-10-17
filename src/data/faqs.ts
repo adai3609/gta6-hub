@@ -34,7 +34,7 @@ export const releaseDateFaqs: FaqItem[] = [
   {
     question: 'What do I get for pre-ordering GTA 6?',
     answer:
-      'All pre-orders and purchases before November 20, 2026 include the Vintage Vice City Pack. See our pre-order guide for edition details.',
+      'All pre-orders and purchases before November 20, 2026 include the Vintage Vice City Pack, and digital pre-orders additionally include a free month of GTA+. See our pre-order guide for edition details.',
   },
 ];
 
@@ -88,6 +88,11 @@ export const preorderFaqs: FaqItem[] = [
       'It is a bonus collection included with all GTA 6 pre-orders and purchases made before November 20, 2026. Full contents are listed on the official store pages.',
   },
   {
+    question: 'Does pre-ordering GTA 6 include GTA+?',
+    answer:
+      'Digital pre-orders include a free month of GTA+. Per the official announcement, it is instantly redeemable and unlocks GTA Online benefits plus access to classic Rockstar titles — including Grand Theft Auto V — through the GTA+ Games Library.',
+  },
+  {
     question: 'What is the difference between Standard and Ultimate editions?',
     answer:
       'Both editions include the full game and the pre-order bonus if purchased before November 20, 2026. The Ultimate Edition costs $99.99 and includes additional digital content — check the official store listing for the complete breakdown.',
@@ -118,7 +123,7 @@ export const preloadFaqs: FaqItem[] = [
   {
     question: 'How large is the GTA 6 download?',
     answer:
-      'The download size has not been officially confirmed. Keep at least 100 GB of free storage as a precaution and check the official store page closer to launch for the final requirement.',
+      'Rockstar has not confirmed an official size. Unverified reports from a leak source claim a development build exceeds 200 GB — but dev builds are typically larger than the final game (for reference, GTA 5 takes about 95 GB on PS5). Practical advice: clear around 200 GB if you can, and check the official store page closer to November 12 for the confirmed download size.',
   },
   {
     question: 'How do I pre-load on PS5?',

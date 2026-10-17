@@ -39,8 +39,10 @@ export default function PreloadPage() {
           <ul>
             <li>
               <strong className="text-white">Free up storage.</strong> The official download size
-              is not confirmed yet. Clearing 100&nbsp;GB+ is a safe precaution — final
-              requirements appear on the store page closer to launch.
+              is not confirmed yet — unverified leak reports claim a dev build exceeds
+              200&nbsp;GB, and final retail downloads are usually smaller. Clearing
+              200&nbsp;GB is the safe precaution; final requirements appear on the store page
+              closer to launch.
             </li>
             <li>
               <strong className="text-white">Pre-order digitally</strong> on the PlayStation
