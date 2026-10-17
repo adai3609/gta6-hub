@@ -6,6 +6,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
+  verification: { google: 'google7e546d6ee66352c8' },
   title: 'GTA 6 Hub — Release Date, Countdown, Pre-Order & Tracker',
   description: siteConfig.description,
   alternates: { canonical: '/' },

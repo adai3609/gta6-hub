@@ -135,4 +135,19 @@ export const preloadFaqs: FaqItem[] = [
     answer:
       'November 12, 2026 is confirmed as the pre-load date; the exact time of day has not been announced.',
   },
+  {
+    question: 'Can you pre-load GTA 6 on PC?',
+    answer:
+      'No. There is no PC version at launch — GTA 6 releases November 19, 2026 on PS5 and Xbox Series X|S only, so there is nothing to pre-load on PC. The PC release tracker covers any future announcement.',
+  },
+  {
+    question: 'Do I need PlayStation Plus or Game Pass to pre-load?',
+    answer:
+      'No. A store account holding the pre-order is enough to download and pre-load — PlayStation Plus or Game Pass subscriptions are not required. Subscriptions only matter for online play, and GTA 6 online details have not been announced.',
+  },
+  {
+    question: 'Can I cancel my GTA 6 pre-order?',
+    answer:
+      'It depends on the store and your region. PlayStation and Microsoft allow pre-order cancellations or refunds before release in many regions, but policies differ — and on PlayStation, having started the pre-load download can affect refund eligibility. Check the PlayStation Store or Microsoft Store refund policy for your account region before cancelling.',
+  },
 ];
